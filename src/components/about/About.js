@@ -8,7 +8,7 @@ class About extends Component {
         return (
             <div className="title">
                 <h2><b>Sobre mí</b></h2>
-            <div className="card mb-3 cardAbout" style={{ maxWidth: '540px' }}>
+            <div className="card mb-3 cardAbout" style={{ maxWidth: '50%'}}>
                 <div class="row no-gutters">
 
                     <div class="col-md-4">

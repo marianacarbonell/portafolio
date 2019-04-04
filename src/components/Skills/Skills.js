@@ -7,6 +7,7 @@ class Skills extends Component {
         return (
            
             <div className=" home Icons">
+            <div className="container">
              <div className="h3">
                 <h2><b>Habilidades</b></h2>
             </div>
@@ -21,7 +22,7 @@ class Skills extends Component {
                     <i class="devicon-javascript-plain"></i>
                 </li>
                 <li className="reactIcon">
-                    <i class="devicon-react-original"></i>
+                <i class="devicon-react-original-wordmark"></i>
                 </li>
                 <li className="gitIcon">
                     <i class="devicon-github-plain-wordmark"></i>
@@ -33,6 +34,7 @@ class Skills extends Component {
                     <i class="devicon-photoshop-line"></i>
                 </li>
                 </ul>
+            </div>
             </div>
 
         )
