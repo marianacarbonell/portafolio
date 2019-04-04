@@ -11,13 +11,13 @@ class NavbarPage extends Component {
     render() {
         return (
             <Navbar className="navbar" collapseOnSelect expand="lg"  >
-                <Navbar.Brand href="#home">Inicio</Navbar.Brand>
+                <Navbar.Brand className="text-white" href="#home"><b>Inicio</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto textNavbar">
-                        <Nav.Link href="#features">Habilidades</Nav.Link>
-                        <Nav.Link href="#pricing">Proyectos</Nav.Link>
-                        <Nav.Link href="#pricing">Contacto</Nav.Link>
+                        <Nav.Link className="text-white" href="#features"><b>Habilidades</b></Nav.Link>
+                        <Nav.Link className="text-white" href="#pricing"><b>Proyectos</b></Nav.Link>
+                        <Nav.Link className="text-white" href="#pricing"><b>Contacto</b></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
