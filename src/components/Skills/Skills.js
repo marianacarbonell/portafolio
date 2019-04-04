@@ -8,7 +8,7 @@ class Skills extends Component {
            
             <div className=" home Icons">
              <div className="h3">
-                <h3>Habilidades</h3>
+                <h2><b>Habilidades</b></h2>
             </div>
             <ul>
                 <li className="htmlIcon">

@@ -4,12 +4,18 @@
 }
 .textAbout{
     margin-top:  90px;
+    color:grey;
 }
 .h3{
     text-align: center;
+    
 }
 
 .cardAbout{
     margin-top: 55px;
+    color:grey;
 }
 
+.title{
+    text-align: center;
+}

@@ -10,7 +10,7 @@ class Projects extends Component {
             <div className="home">
 
                 <div className="h3">
-                    <h3>Proyectos</h3>
+                    <h2><b>Proyectos</b></h2>
                 </div>
                 <Carousel>
                     <Carousel.Item>
