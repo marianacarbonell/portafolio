@@ -1,3 +1,33 @@
 .h3{
     text-align: center;
 }
+
+.All{
+    height: 100vh;
+    width: 100vw;
+}
+
+.github{
+    padding: 30px;
+    font-size: 80px;
+    margin-top: 190px;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+
+
+.linkedin{
+    padding: 30px;
+    font-size: 70px;
+    margin-top: 190px;
+    color:white;
+}
+
+.mail{
+    padding: 30px;
+    font-size: 60px;
+    margin-top: 190px;
+    color:white;
+}

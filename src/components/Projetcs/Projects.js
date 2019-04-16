@@ -11,7 +11,7 @@ class Projects extends Component {
             <div className="home">
 
                 <div className="h3">
-                    <h2><b>Proyectos</b></h2>
+                    <h3><b>Proyectos</b></h3>
                 </div>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
