@@ -8,59 +8,65 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="home">
+            <div id="proyects" className="home">
 
                 <div className="h3">
                     <h3><b>Proyectos</b></h3>
                 </div>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                <div className="row allCards" >
+                    <div className="col-sm-6 col-md-3" >
+                        <Card style={{ width: '14rem', height: "33rem" }} className="cardProjects">
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body className="Card.Body">
+                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Movie Time</h4></Card.Title>
+                                <Card.Text className="Card.Text text-justify">
+                                    Movie time es una aplicación que te da recomendaciones de películas o series según el tiempo que tú tengas disponibles para ver.
                 </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>;
-                {/* <Carousel>
-                    <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=First slide&bg=373940"
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                </Carousel> */}
+                                <a href="https://github.com/marianacarbonell/SCL007-hackathon-peliculas" className="btnCard" variant="primary">Repositorio</a><br></br>
+                                <a href="" className="btnCard" variant="primary">Demo</a>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-sm-6 col-md-3">
+                        <Card style={{ width: '14rem', height: "33rem" }} className="cardProjects">
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body className="Card.Body">
+                                <Card.Title ><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>BurgerQueen</h4></Card.Title>
+                                <Card.Text className="Card.Text text-justify">
+                                    BurgerQueen es una interfaz hecha para una cadena de comida rápida, con la cual puedan tomar pedidos usando una tablet.
+                                                </Card.Text>
+                                <a href="" className="btnCard" variant="primary">Repositorio</a><br></br>
+                                <a href="" className="btnCard" variant="primary">Demo</a>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-sm-6 col-md-3">
+                        <Card style={{ width: '14rem', height: "33rem" }} className="cardProjects">
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body className="Card.Body">
+                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Pinterest</h4></Card.Title>
+                                <Card.Text className="Card.Text text-justify">
+                                    Replica del diseño de la página pinterest, hecha en versión desktop
+                </Card.Text>
+                                <a href="" className="btnCard" variant="primary">Repositorio</a><br></br>
+                                <a href="" className="btnCard" variant="primary">Demo</a>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-sm-6 col-md-3">
+                        <Card style={{ width: '14rem', height: "33rem" }} className="cardProjects">
+                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Body className="Card.Body">
+                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Social Pets</h4></Card.Title>
+                                <Card.Text className="Card.Text text-justify">
+                                    Social Pets es red social para dueños de mascotas, que da información sobre salud y alimentación.
+                </Card.Text>
+                                <a href="" className="btnCard" variant="primary">Repositorio</a><br></br>
+                                <a href="" className="btnCard" variant="primary">Demo</a>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </div>
             </div >
         )
     }

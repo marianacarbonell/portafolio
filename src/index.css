@@ -14,14 +14,14 @@ code {
 } */
 
 body {
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
+	width: 80wh;
+	height: 80vh;
 	background: linear-gradient(-45deg, #EE7752, rgb(170, 49, 95), rgb(40, 144, 182), #23D5AB);
-	background-size: 500% 500%;
+	background-size: 450% 450%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	scroll-behavior: smooth;
 }
 
 @-webkit-keyframes Gradient {

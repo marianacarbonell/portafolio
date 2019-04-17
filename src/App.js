@@ -14,7 +14,6 @@ class App extends Component {
         <NavbarPage/>
         <About/>
         <Skills/>
-        
         <Projects/>
         <Contact/>
         

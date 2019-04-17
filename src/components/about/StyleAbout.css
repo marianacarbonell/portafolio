@@ -1,14 +1,9 @@
-.home{
-    height: 100vh;
-    width: 100vw;
-}
 .textAbout{
     margin-top:  90px;
     color:grey;
 }
-.h3{
-    text-align: center;
-    
+.title2{
+margin-top: 5rem;
 }
 
 .cardAbout{
