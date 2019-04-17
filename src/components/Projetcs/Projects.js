@@ -15,8 +15,8 @@ class Projects extends Component {
                 </div>
                 <div className="row allCards" >
                     <div className="col-sm-6 col-md-3" >
-                        <Card style={{ width: '14rem', height: "33rem" }} className="cardProjects">
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card style={{ width: '14rem', height: "33rem" }} className="cardProjects firstCard">
+                            <Card.Img style={{ height: "33rem" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Captura%20de%20pantalla%20de%202019-04-16%2014-18-08.jpg" />
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Movie Time</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
@@ -42,7 +42,7 @@ class Projects extends Component {
                     </div>
                     <div className="col-sm-6 col-md-3">
                         <Card style={{ width: '14rem', height: "33rem" }} className="cardProjects">
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src="../../../Bocetos/Captura de pantalla de 2019-04-16 14-18-08.jpgaa"/>
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Pinterest</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
