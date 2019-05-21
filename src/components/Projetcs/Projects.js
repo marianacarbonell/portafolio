@@ -8,13 +8,13 @@ class Projects extends Component {
 
     render() {
         return (
-            <div id="proyects" className="home">
+            <div id="proyects" className="home" >
 
                 <div className="h3">
                     <h3><b>Proyectos</b></h3>
                 </div>
-                <div className="row allCards" >
-                    <div className="col-sm-6 col-md-3" >
+                <div className="row allCards proyects" >
+                    <div className="col-sm-8 col-md-3" >
                         <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects firstCard">
                             <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Captura%20de%20pantalla%20de%202019-04-16%2014-18-08.jpg" />
                             <Card.Body className="Card.Body">
@@ -27,7 +27,7 @@ class Projects extends Component {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-sm-6 col-md-3">
+                    {/* <div className="col-sm-6 col-md-3">
                         <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects">
                             <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="holder.js/100px180" />
                             <Card.Body className="Card.Body">
@@ -39,8 +39,8 @@ class Projects extends Component {
                                 <a href="" target="_blank" className="btnCard" variant="primary">Demo</a>
                             </Card.Body>
                         </Card>
-                    </div>
-                    <div className="col-sm-6 col-md-3">
+                    </div> */}
+                    <div className="col-sm-8 col-md-3">
                         <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects">
                             <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/pinterest.jpg"/>
                             <Card.Body className="Card.Body">
@@ -53,7 +53,7 @@ class Projects extends Component {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-sm-6 col-md-3">
+                    <div className="col-sm-8 col-md-3">
                         <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects">
                             <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/social%20pets.jpg" />
                             <Card.Body className="Card.Body">
