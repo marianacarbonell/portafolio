@@ -13,7 +13,7 @@ class About extends Component {
                     </div>
                     <div className="card mb-3 cardAbout" style={{ maxWidth: '50%'}}>
                     <div class="image" style={{width:'100%', margin:"auto"}}>
-                                <img  style={{ width: '70%', height: "70%"}} src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Mariana%20Carbonell.JPG" class="card-img,  rounded-circle" alt="..." />
+                                <img  style={{ width: '50%', height: "90%"}} src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Mariana%20Carbonell.JPG" class="card-img,  rounded-circle" alt="..." />
                             </div>
                         <div class="row no-gutters">
                             <div class="col-md-12">
