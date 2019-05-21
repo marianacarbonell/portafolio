@@ -45,3 +45,10 @@ margin-top: 5rem;
     font-size: 25px;
     
 }
+
+.photo{
+    width: 100px;
+    height: auto;
+    margin-left: 720px;
+    margin-top:-300px;
+}
