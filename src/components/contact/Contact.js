@@ -4,7 +4,7 @@ import '../contact/contact.css';
 class Contact extends Component {
     render() {
         return (
-            <div className="row">
+            <div className="row home">
                 <div className="col-sm-8">
                     <div id="contact" className="All">
                         <div className="h3">
