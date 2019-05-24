@@ -12,9 +12,9 @@ class About extends Component {
                     <h3 style={{color: 'white'}}><b>Sobre mí</b></h3>
                     </div>
                     <div className="card mb-3 cardAbout" style={{ maxWidth: '50%'}}>
-                    <div class="image" style={{width:'100%', margin:"auto"}}>
-                                <img  style={{ width: '50%', height: "90%"}} src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Mariana%20Carbonell.JPG" class="card-img,  rounded-circle" alt="..." />
-                            </div>
+                    {/* <div class="image" style={{width:'100%', margin:"auto"}}>
+                                <img   src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Mariana%20CarbonellPortafolioCorta.png" class="card-img,  rounded-circle" alt="..." />
+                            </div> */}
                         <div class="row no-gutters">
                             <div class="col-md-12">
                                 <div class="card-body">
