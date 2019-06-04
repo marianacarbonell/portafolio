@@ -6,9 +6,9 @@
     justify-content: center;
 }
 .Icons i{
-    font-size: 100px;
+    font-size: 90px;
     color: #fff;
-    padding: 30px;
+    padding: 10px;
 } 
 
 ul{
@@ -19,15 +19,30 @@ ul{
 
 }
 
+.columnaIcon{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 @media screen and (max-width:720px){  
 
-    .Icons i{
+    .allIcons i{
         font-size: 40px;
         padding: 10px;
-    } 
+    }
 
-    .home {
-        padding: 100x;
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columnaIcon{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .psIcon{
+        margin-left: 60px;
     }
 
 }
