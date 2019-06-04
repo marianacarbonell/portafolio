@@ -37,7 +37,7 @@ img{
         display: none;
     }
     .textAbout{
-        width: 100%;
+    width: 100%;
     font-size: 20px;
     padding: 80px;
     }
@@ -45,10 +45,8 @@ img{
     #name{
         font-size: 40px;
     }
-
     .profession {
         display: flex;
         flex-direction: row;
-
     }
 }
