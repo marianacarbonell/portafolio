@@ -1,54 +1,33 @@
 .home{
     height: 100vh;
     width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 .Icons i{
-    border-radius: 50%;
     font-size: 100px;
-    color:white;
+    color: #fff;
+    padding: 30px;
 } 
 
 ul{
     list-style: none;
-    padding: 30px;
-    
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
 }
 
-li{
-    float: left;
-}
-.htmlIcon{
-    padding: 20px;
-}
-.cssIcon{
-    padding: 20px;
-}
+@media screen and (max-width:720px){  
 
-.jsIcon{
-    padding: 20px;
-}
+    .Icons i{
+        font-size: 40px;
+        padding: 10px;
+    } 
 
-.reactIcon{
-    padding: 20px;
-}
+    .home {
+        padding: 100x;
+    }
 
-.gitIcon{
-    padding: 20px;
-}
-
-.aiIcon{
-    padding: 20px; 
-}
-
-.psIcon{
-    padding: 20px;   
-}
-.h3{
-    padding-top: 60px;
-    text-align: center;
-    color:white;
-}
-
-.allIcons{
-    margin-top: 110px;
 }

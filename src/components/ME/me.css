@@ -1,6 +1,9 @@
-.home{
+.homeMe{
     height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .textMe{
@@ -10,11 +13,18 @@
     color: white;
 }
 
-.Icons{
+.IconsMe{
     width: 50%;
     display: flex;
     flex-direction: column;
     padding-left: 25px;
+    color: white;
+    font-size: 80px;
+   
+}
+
+li{
+    padding: 30px;
 }
 
 .firstIcons{
@@ -28,7 +38,7 @@
 }
 
 @media (max-width:720px){
-    .Icons{
+    .IconsMe{
         display: none;
     }
     .textMe{
