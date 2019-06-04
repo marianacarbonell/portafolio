@@ -1,32 +1,33 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
 import '../Projetcs/StyleProjects.css';
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 class Projects extends Component {
 
     render() {
         return (
-            <div id="proyects" className="home" >
-
-                <div className="h3">
-                    <h3><b>Proyectos</b></h3>
-                </div>
-                <div className="row allCards proyects" >
-                    <div className="col-sm-8 col-md-3" >
-                        <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects firstCard">
-                            <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Captura%20de%20pantalla%20de%202019-04-16%2014-18-08.jpg" />
+            <div id="proyects" className="home cardProjects" >
+                <Container>
+                <Row >
+                    <Col xs={12} md={4}>
+                        <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects firstCard">
+                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Captura%20de%20pantalla%20de%202019-04-16%2014-18-08.jpg" />
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Movie Time</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
-                                    Movie time es una aplicación que te da recomendaciones de películas o series según el tiempo que tú tengas disponibles para ver.
+                                   Aplicación que da recomendaciones de películas o series según el tiempo disponible.
                 </Card.Text>
                                 <a href="https://github.com/marianacarbonell/SCL007-hackathon-peliculas" target="_blank" className="btnCard" variant="primary">Repositorio</a><br></br>
                                 <a href="" target="_blank" className="btnCard" variant="primary">Demo</a>
                             </Card.Body>
                         </Card>
-                    </div>
+                    </Col>
+                    
                     {/* <div className="col-sm-6 col-md-3">
                         <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects">
                             <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="holder.js/100px180" />
@@ -40,9 +41,9 @@ class Projects extends Component {
                             </Card.Body>
                         </Card>
                     </div> */}
-                    <div className="col-sm-8 col-md-3">
-                        <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects">
-                            <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/pinterest.jpg"/>
+                   <Col xs={12} md={4}>
+                        <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
+                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/pinterest.jpg"/>
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Pinterest</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
@@ -52,10 +53,10 @@ class Projects extends Component {
                                 <a href="https://marianacarbonell.github.io/pinterest/" target="_blank" className="btnCard" variant="primary">Demo</a>
                             </Card.Body>
                         </Card>
-                    </div>
-                    <div className="col-sm-8 col-md-3">
-                        <Card style={{ width: '14rem', height: "31rem" }} className="cardProjects">
-                            <Card.Img style={{ width: '100%', height: "200px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/social%20pets.jpg" />
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
+                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/social%20pets.jpg" />
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Social Pets</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
@@ -65,8 +66,10 @@ class Projects extends Component {
                                 <a href="https://milexys.github.io/SCL007-Social-Network/" target="_blank" className="btnCard" variant="primary">Demo</a>
                             </Card.Body>
                         </Card>
-                    </div>
-                </div>
+                    </Col>
+                    
+                </Row>
+                </Container>
             </div >
         )
     }
