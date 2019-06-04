@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavbarPage from './components/NavbarPage/NavbarPage.js';
-import About from './components/about/About';
 import About2 from './components/about/about2';
 import Me from '../src/components/ME/me';
 import Skills from './components/Skills/Skills';
@@ -15,11 +14,10 @@ class App extends Component {
       <div>
         <NavbarPage/>
         <About2/>
-        <Me/>
-        {/* <About/> */}
+        {/* <Me/>
         <Skills/>
         <Projects/>
-        <Contact/>
+        <Contact/> */}
         
       </div>
 
