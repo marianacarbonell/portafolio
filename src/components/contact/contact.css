@@ -1,4 +1,35 @@
-.contactResponsive{
+
+.All{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.All a {
+    padding: 70px;
+    font-size: 70px;
+    color:#fff;
+
+}
+
+@media screen and (max-width:720px){  
+
+    .All a {
+        padding: 15px;
+        font-size: 40px;
+    
+    }
+}
+
+
+
+
+
+/* .contactResponsive{
     width:33.33%;
     height: auto;
     float: left;
@@ -47,4 +78,4 @@ a{
         float: left;
     }
 
-}
+} */
