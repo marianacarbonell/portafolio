@@ -5,8 +5,9 @@ import About2 from './components/about/about2';
 import Me from '../src/components/ME/me';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projetcs/Projects';
-import Contact from './components/contact/Contact'
-import Container from 'react-bootstrap/Carousel'
+import Diseño from './components/Projetcs/diseno';
+import Contact from './components/contact/Contact';
+
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Me/>
         <Skills/>
         <Projects/>
+        <Diseño/>
         <Contact/>
         
       </div>
