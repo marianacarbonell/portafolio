@@ -15,7 +15,7 @@ class Diseño extends Component {
                 <Container>
                 <Row >
                     <Col xs={12} md={4}>
-                        <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects firstCard">
+                        <Card style={{ width: '14rem', height: "23rem" }} className="cardProjects firstCard">
                             <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/ilustraciones.jpg" />
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Ilustraciones</h4></Card.Title>
@@ -42,12 +42,12 @@ class Diseño extends Component {
                         </Card>
                     </div> */}
                    <Col xs={12} md={4}>
-                        <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
-                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/logos.jpg"/>
+                        <Card style={{ width: '14rem', height: "23rem" }} className="cardProjects">
+                            <Card.Img style={{ width: '90%', height: "180px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/logos.jpg"/>
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Logotipos</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
-                                Diseño de logotipos.
+                                Diseño de logotipos y endomarketing.
                 </Card.Text>
                                 <a href="https://www.behance.net/gallery/65619001/Logo-Design"  target="_blank" className="btnCard" variant="primary">Ver más</a><br></br>
                         
@@ -55,12 +55,12 @@ class Diseño extends Component {
                         </Card>
                     </Col>
                     <Col xs={12} md={4}>
-                        <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
+                        <Card style={{ width: '14rem', height: "23rem" }} className="cardProjects">
                             <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/tesis.jpg" />
                             <Card.Body className="Card.Body">
-                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Guía de escalada</h4></Card.Title>
+                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Guía de rutas</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
-                                Guía completa de escalada, con trabajos de iconografía, fotografía, señalética y diseño de mapas.                </Card.Text>
+                                Guía de escalada, con trabajos de iconografía, fotografía, señalética y diseño de mapas.                </Card.Text>
                                 <a href="https://www.behance.net/gallery/60744143/Climbing-Guide-Design" className="btnCard" target="_blank" variant="primary">Ver más</a><br></br>
                                 
                             </Card.Body>

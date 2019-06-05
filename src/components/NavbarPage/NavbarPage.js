@@ -17,8 +17,8 @@ class NavbarPage extends Component {
                     <Nav className="mr-auto textNavbar">
                     <Nav.Link className="text-white" href="#AboutMe"><b>Sobre mí</b></Nav.Link>
                         <Nav.Link className="text-white" href="#skills"><b>Habilidades</b></Nav.Link>
-                        <Nav.Link className="text-white" href="#proyects"><b>Programación</b></Nav.Link>
-                        <Nav.Link className="text-white" href="#diseño"><b>Diseño</b></Nav.Link>
+                        <Nav.Link className="text-white" href="#proyects"><b>Proyectos Programación</b></Nav.Link>
+                        <Nav.Link className="text-white" href="#diseño"><b>Proyectos Diseño</b></Nav.Link>
                         <Nav.Link className="text-white" href="#contact"><b>Contacto</b></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
