@@ -14,24 +14,24 @@ class Me extends Component {
                                 
                                     <div className="firstIcons">
                                     <li className="htmlIcon">
-                                        <i class="devicon-html5-plain-wordmark"></i>
+                                        <img src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/escalada.png"/>
                                     </li>
                                     <li className="cssIcon">
-                                        <i class="devicon-css3-plain-wordmark"></i>
+                                        <img src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/ilustracion.png"/>
                                     </li>
                                     <li className="jsIcon">
-                                        <i class="devicon-javascript-plain"></i>
+                                    <img src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/animals.png"/>
                                     </li>
                                     </div>
                                     <div className="secondIcons">
                                     <li className="gitIcon">
-                                        <i class="devicon-github-plain-wordmark"></i>
+                                    <img src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/plantas.png"/>
                                     </li>
                                     <li className="aiIcon">
-                                        <i class="devicon-illustrator-plain"></i>
+                                    <img src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/handmade.png"/>
                                     </li>
                                     <li className="psIcon">
-                                        <i class="devicon-photoshop-line"></i>
+                                    <img src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/leer.png"/>
                                     </li>
                                     </div>
                                 
