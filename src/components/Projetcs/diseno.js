@@ -16,7 +16,7 @@ class Diseño extends Component {
                 <Row >
                     <Col xs={12} md={4}>
                         <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects firstCard">
-                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/Captura%20de%20pantalla%20de%202019-04-16%2014-18-08.jpg" />
+                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/ilustraciones.jpg" />
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Movie Time</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
@@ -43,7 +43,7 @@ class Diseño extends Component {
                     </div> */}
                    <Col xs={12} md={4}>
                         <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
-                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/pinterest.jpg"/>
+                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/logos.jpg"/>
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Pinterest</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
@@ -56,7 +56,7 @@ class Diseño extends Component {
                     </Col>
                     <Col xs={12} md={4}>
                         <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
-                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/social%20pets.jpg" />
+                            <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/tesis.jpg" />
                             <Card.Body className="Card.Body">
                                 <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Social Pets</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
