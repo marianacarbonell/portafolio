@@ -18,12 +18,12 @@ class Diseño extends Component {
                         <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects firstCard">
                             <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/ilustraciones.jpg" />
                             <Card.Body className="Card.Body">
-                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Movie Time</h4></Card.Title>
+                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Ilustraciones</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
-                                   Aplicación que da recomendaciones de películas o series según el tiempo disponible.
+                                   Trabajos ilustrativos de diferentes temáticas.
                 </Card.Text>
-                                <a href="https://github.com/marianacarbonell/SCL007-hackathon-peliculas" target="_blank" className="btnCard" variant="primary">Repositorio</a><br></br>
-                                <a href="" target="_blank" className="btnCard" variant="primary">Demo</a>
+                                <a href="https://www.behance.net/gallery/41785965/Animals-Illustrations-(-Digiatl-Watercolor)" target="_blank" className="btnCard" variant="primary">Ver más</a><br></br>
+                                
                             </Card.Body>
                         </Card>
                     </Col>
@@ -45,12 +45,12 @@ class Diseño extends Component {
                         <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
                             <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/logos.jpg"/>
                             <Card.Body className="Card.Body">
-                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Pinterest</h4></Card.Title>
+                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Logotipos</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
-                                    Replica del diseño de la página pinterest, hecha en versión desktop
+                                Diseño de logotipos.
                 </Card.Text>
-                                <a href="https://github.com/marianacarbonell/pinterest"  target="_blank" className="btnCard" variant="primary">Repositorio</a><br></br>
-                                <a href="https://marianacarbonell.github.io/pinterest/" target="_blank" className="btnCard" variant="primary">Demo</a>
+                                <a href="https://www.behance.net/gallery/65619001/Logo-Design"  target="_blank" className="btnCard" variant="primary">Ver más</a><br></br>
+                        
                             </Card.Body>
                         </Card>
                     </Col>
@@ -58,12 +58,11 @@ class Diseño extends Component {
                         <Card style={{ width: '14rem', height: "25rem" }} className="cardProjects">
                             <Card.Img style={{ width: '100%', height: "150px" }} variant="top" src="https://raw.githubusercontent.com/marianacarbonell/portafolio/master/Bocetos/tesis.jpg" />
                             <Card.Body className="Card.Body">
-                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Social Pets</h4></Card.Title>
+                                <Card.Title><h4 style={{ textAlign: 'center', fontWeight: "bolder" }}>Guía de escalada</h4></Card.Title>
                                 <Card.Text className="Card.Text text-justify">
-                                    Social Pets es red social para dueños de mascotas, que da información sobre salud y alimentación.
-                </Card.Text>
-                                <a href="" className="btnCard" target="_blank" variant="primary">Repositorio</a><br></br>
-                                <a href="#" target="_blank" className="btnCard" variant="primary">Demo</a>
+                                Guía completa de escalada, con trabajos de iconografía, fotografía, señalética y diseño de mapas.                </Card.Text>
+                                <a href="https://www.behance.net/gallery/60744143/Climbing-Guide-Design" className="btnCard" target="_blank" variant="primary">Ver más</a><br></br>
+                                
                             </Card.Body>
                         </Card>
                     </Col>
